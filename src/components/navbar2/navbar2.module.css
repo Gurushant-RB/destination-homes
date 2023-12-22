@@ -1,0 +1,24 @@
+.container{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.main .h4{
+    width: 20%;
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}

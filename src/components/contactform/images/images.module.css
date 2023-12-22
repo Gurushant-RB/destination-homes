@@ -1,0 +1,32 @@
+.main{
+    width: 100%;
+    height: 40vh;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: inherit;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container div{
+    width: 33%;
+    height: inherit;
+    /* background-color: cornflowerblue; */
+}
+.container div img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container div img:hover{
+    
+    transform: scale(1.03);
+}
+
+
